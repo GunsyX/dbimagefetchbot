@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 7rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    
+    height: 30rem;
+    width: 30rem;
+
+    font-family: gotham;
+    font-size: 3.9rem;
+    height: 14.7rem;
+    width: 40rem;
+
+    background-color: black;
+    border: 3rem solid black;
+    /* box-shadow: #00FF90 0px 0px 2rem inset, #00FF90 0px 0px 2rem; */
+    /* box-shadow: #00ff9052 0px 0px 2rem inset, #00ffb8 0px 0px 0px 1px inset, #00ff9047 0px 0px 1.8rem; */
+    box-shadow: #00ff9052 0px 0px 2rem inset, #00ff90 0px 0px 0px 1px inset, #00ff9021 0px 0px 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.checklist{
+    /* background-color: white; */
+    width: 40rem;
+    height: 20rem;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.listitem{
+    height: 4rem;
+    width: 90%;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.li-left{
+    border: 1px solid greenyellow;
+    height: 100%;
+    /* width: 70%; */
+    flex: 0.8;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.option-name{
+    font-size: 1.5rem;
+    font-family: gotham;
+    color: white;
+}
+
+.li-right{
+    flex: 0.2;
+    height: 100%;
+    border: indigo 1px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check{
+    height: 2rem;
+    width: 2rem;
+    outline: none;
+    border: 2px solid #000600;
+    /* border: none; */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #00130a;
+    box-shadow: 0 0 2rem #ffffff1a;
+}
+
+.check--checked{
+    height: 2rem;
+    width: 2rem;
+    outline: none;
+    border: 2px solid #000600;
+    /* border: none; */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #00ff32;
+    box-shadow: 0 0 2rem #00ff9052;
+}
+
+/* .default-check{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+} */
